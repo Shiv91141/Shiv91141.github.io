@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official Community of Indian Institute of Technology Indore</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="index.js"></script>
+
+</head>
+
+<body>
+    <Nav id="nav">
+        <div id="nav_login" class="fit">
+            <img src="https://almashines.s3.dualstack.ap-southeast-1.amazonaws.com/assets/images/institutes/logo/170x170/149.jpg?v=1576655536"
+                alt="Alumni_Cell_IITI" id="nav_logo">
+            <div>
+                <p class="h-primary inline-block"><a href="https://www.iiti.ac.in/" target="_break">Indian Institute of
+                        Technology
+                        Indore</a></p>
+                <a href="#" id="login" class="color">JOIN/LOGIN</a>
+            </div>
+        </div>
+        <div>
+            <ul id="navbar" class="color">
+                <li><a class="color">
+                        <h2 class="h-secondary inline-block">HOME</h2>
+                    </a></li>
+                <li class="dropdown" onclick="toggleHide(1)">
+                    <a href="#" class="color">
+
+                        <h2 class="h-secondary inline-block">EVENTS</h2><img src="img/arrow.png" alt="_" class="icon">
+                    </a>
+                    <div id="dp1" class="flex_column dropdown_content p-primary">
+                        <a href="#">Magnum Opus</a>
+                        <a href="#">Convocations</a>
+                        <a href="#">All Events</a>
+                    </div>
+                </li>
+                <li class="dropdown" onclick="toggleHide(2)">
+                    <a href="#" class="color">
+
+                        <h2 class="h-secondary inline-block">STORIES</h2><img src="img/arrow.png" alt="_" class="icon">
+                    </a>
+                    <div id="dp2" class="flex_column dropdown_content p-primary">
+                        <a href="#">Alumni Stories</a>
+                        <a href="#">Alumni Magazine</a>
+                        <a href="#">Institute Updates</a>
+                        <a href="#">Gallery</a>
+                        <a href="#">Alumni Achievements</a>
+                    </div>
+                </li>
+                <li class="dropdown" onclick="toggleHide(3)">
+                    <a href="#" class="color">
+
+                        <h2 class="h-secondary inline-block">DIRECTORY</h2><img src="img/arrow.png" alt="_"
+                            class="icon">
+                    </a>
+                    <div id="dp3" class="flex_column dropdown_content p-primary">
+                        <a href="#">Alumni-List View</a>
+                        <a href="#">Alumni-Map View</a>
+                        <a href="#">Alumni Batchwise</a>
+                    </div>
+                </li>
+                <li>
+                    <a class="color">
+                        <h2 class="h-secondary inline-block">CONTACT US</h2>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+    </Nav>
+    <section id="home">
+        <div class="slider">
+        <div class="flex_column slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <input type="radio" name="radio-btn" id="radio5">
+            <input type="radio" name="radio-btn" id="radio6">
+            <input type="radio" name="radio-btn" id="radio7">
+            <input type="radio" name="radio-btn" id="radio8">
+            <div id="slide-1" class="flex_column slide first ">
+                <p class="h-primary">Welcome to IITI Indore Alumni Portal</p>
+                <p class="h-secondary">Decennial Reunion!</p>
+                <a href="#" class="home_btn">
+                    <p class="h-secondary inline-block">REGISTER FOR EVENT</p><img src="img/login_arrow_icon.png"
+                        class="icon" alt="->">
+                </a>
+            </div>
+            <div id="slide-2" class="flex_column slide">
+                <p class="h-primary">Welcome to IITI Indore Alumni Portal</p>
+                <a href="#" class="home_btn">
+                    <p class="h-secondary inline-block">CREATE YOUR PROFILE</p><img src="img/login_arrow_icon.png"
+                        class="icon" alt="->">
+                </a>
+
+            </div>
+            <div id="slide-3" class="flex_column slide">
+                <p class="h-primary">Upcoming Event</p>
+                <p class="h-secondary">Decennial Reunion!</p>
+                <a href="#" class="home_btn">
+                    <p class="h-secondary inline-block">REGISTER FOR EVENT</p><img src="img/login_arrow_icon.png"
+                        class="icon" alt="->">
+                </a>
+            </div>
+            <div id="slide-4" class="flex_column slide">
+                <p class="h-primary">Welcome to IITI Indore Alumni Portal</p>
+                <a href="#" class="home_btn">
+                    <p class="h-secondary inline-block">CREATE YOUR PROFILE</p><img src="img/login_arrow_icon.png"
+                        class="icon" alt="->">
+                </a>
+            </div>
+            <div id="slide-5" class="flex_column slide">
+
+                <p class="h-primary">Upcoming Event</p>
+                <p class="h-secondary">Decennial Reunion!</p>
+
+                <a href="#" class="home_btn">
+                    <p class="h-secondary inline-block">REGISTER FOR EVENT</p><img src="img/login_arrow_icon.png"
+                        class="icon" alt="->">
+                </a>
+            </div>
+            <div id="slide-6" class="flex_column slide">
+                <p class="h-primary">Welcome to IITI Indore Alumni Portal</p>
+
+                <a href="#" class="home_btn">
+                    <p class="h-secondary inline-block">CREATE YOUR PROFILE</p><img src="img/login_arrow_icon.png"
+                        class="icon" alt="->">
+                </a>
+
+            </div>
+            <div id="slide-7" class="flex_column slide">
+                <p class="h-primary">Welcome to IITI Indore Alumni Portal</p>
+
+                <a href="#" class="home_btn">
+                    <p class="h-secondary inline-block">CREATE YOUR PROFILE</p><img src="img/login_arrow_icon.png"
+                        class="icon" alt="->">
+                </a>
+
+            </div>
+            <div id="slide-8" class="flex_column slide">
+                <p class="h-primary">Welcome to IITI Indore Alumni Portal</p>
+
+                <a href="#" class="home_btn">
+                    <p class="h-secondary inline-block">CREATE YOUR PROFILE</p><img src="img/login_arrow_icon.png"
+                        class="icon" alt="->">
+                </a>
+            </div>
+
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+                <div class="auto-btn5"></div>
+                <div class="auto-btn6"></div>
+                <div class="auto-btn7"></div>
+                <div class="auto-btn8"></div>
+            </div>
+            
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn" onclick="bg(1)"></label>
+                <label for="radio2" class="manual-btn" onclick="bg(2)"></label>
+                <label for="radio3" class="manual-btn" onclick="bg(3)"></label>
+                <label for="radio4" class="manual-btn" onclick="bg(4)"></label>
+                <label for="radio5" class="manual-btn" onclick="bg(5)"></label>
+                <label for="radio6" class="manual-btn" onclick="bg(6)"></label>
+                <label for="radio7" class="manual-btn" onclick="bg(7)"></label>
+                <label for="radio8" class="manual-btn" onclick="bg(8)"></label>
+            </div>
+        </div>
+        </div>
+    </section>
+    <div id="home_login" class="flex">
+        <div class="flex_column">
+            <a href="#" class="login_logo">
+                <img src="img/login_contact_logo.png" alt="Alumini_Cell_IITI">
+            </a>
+            <h2 class="h-secondary center">LOGIN/SIGN UP</h2>
+            <p class="p-primary">Connect Via</p>
+            <div class="flex space-between">
+                <a href="#">
+                <img src="img/login_facebook_logo.png" alt="f" class="login_social_logo">
+                </a>
+                <a href="#">
+                    <img src="img/login_google_logo.png" alt="G" class="login_social_logo">
+                </a>
+                <a href="#">
+                    <img src="img/login_linkledin_logo.png" alt="in" class="login_social_logo">
+                </a>
+            </div>
+            <div class="login_or">
+                <p class="p-primary inline-block center">OR</p>
+            </div>
+            <hr>
+            <div class="login_input">
+                <input type="email" id="login_email" class="p-primary" placeholder="Enter your Email...">
+                <a href=""><img src="img/login_send_icon.png" alt="->>"></a>
+            </div>
+        </div>
+    </div>
+    <section id="alumni_platform" class="color">
+        <h1 class="h-primary center">IIT INDORE ALUMNI PLATFORM</h1>
+        <div class="flex_wrap fit center">
+            <div class="alumni_platform_item">
+                <a href="#" class="logo">
+
+                    <img src="img/pf_logo-1.png" alt="Alumini_Cell_IITI" class="logo_img">
+                </a>
+                <h2 class="h-secondary margin">ALUMNI DIRECTORY</h2>
+                <p class="p-primary">Explore IIT Indore Complete Alumni Directory & connect with alumni with your
+                    Interests & Domain
+                </p>
+            </div>
+            <div class="alumni_platform_item">
+                <a href="#" class="logo">
+
+                    <img src="img/pf_logo-2.png" alt="Alumini_Cell_IITI" class="logo_img">
+                </a>
+                <h2 class="h-secondary">YOUR BATCHMATES</h2>
+                <p class="p-primary">View Our Exclusive Batchmates Directory to know about whereabouts of your
+                    batchmates
+                </p>
+            </div>
+            <div class="alumni_platform_item">
+                <a href="#" class="logo">
+
+                    <img src="img/pf_logo-3.png" alt="Alumini_Cell_IITI" class="logo_img">
+                </a>
+                <h2 class="h-secondary">ALUMNI IN YOUR CITY</h2>
+                <p class="p-primary">Find Aumni living in your city & be a part of IIT Indore meetups in your cities
+                </p>
+            </div>
+            <div class="alumni_platform_item">
+                <a href="#" class="logo">
+
+                    <img src="img/pf_logo-4.png" alt="Alumini_Cell_IITI" class="logo_img">
+                </a>
+                <h2 class="h-secondary">YOUR ALUMNI PROFILE</h2>
+                <p class="p-primary">Create & Complete your Alumni Profile & remain connected with with all
+                    opportunities matching
+                    your
+                    interest
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="updates">
+        <div id="updates_heading" class="flex space-between">
+            <p class="h-primary">Alumni Updates</p>
+            <a href="#">View All</a>
+        </div>
+        <div class="flex_wrap fit space-between">
+            <div class="flex_column">
+                <div class="updates_img-1"></div>
+                <span class="p-secondary">
+                    <img src="img/update_icon-1.png" class="icon" alt="Date">Oct 31, 2022
+                </span>
+                <p class="p-primary">
+                    <a href="#">Batch of 2026 IIT Indore</a>
+                </p>
+                <p class="p-secondary">
+                    366 students, including 77 girl students, 1 OCI student and 4 preparatory students, enrolled in
+                    various disciplines of BTech Courses at IIT...
+                </p>
+                <div class="updates_bottom">
+                    <span class="p-secondary">
+                        <img src="img/update_icon-2.png" class="icon" alt="views">584
+                    </span>
+                    <a href="#" class="p-primary">READ MORE <img src="img/update_icon-3.png" class="icon" alt="->"></a>
+                </div>
+            </div>
+            <div class="flex_column">
+                <div class="updates_img-2"></div>
+                <span class="p-secondary">
+                    <img src="img/update_icon-1.png" class="icon" alt="Date">
+                    Jan 29, 2022
+                </span>
+                <h2 class="p-primary">
+                    <a href="#">Gaurav Parchani's Dozee Healthtech Goes Global!</a>
+                </h2>
+                <p class="p-secondary">
+                    Our alumnus, Mr Gaurav Parchani (BTech ME 2013) had come up with a startup, Dozee which is now
+                    India's first contactless remote patient monitoring device, that...
+                </p>
+                <div class="updates_bottom">
+                    <span class="p-secondary">
+                        <img src="img/update_icon-2.png" class="icon" alt="views">392
+                    </span>
+                    <a href="#" class="p-primary">READ MORE <img src="img/update_icon-3.png" class="icon" alt="->"></a>
+                </div>
+            </div>
+            <div class="flex_column">
+                <div class="updates_img-3"></div>
+                <span class="p-secondary">
+                    <img src="img/update_icon-1.png" class="icon" alt="Date">
+                    Dec 24, 2019
+                </span>
+                <h2 class="p-primary">
+                    <a href="#">Alumni Magazine 2019(Decennial celebration Edition)</a>
+                </h2>
+                <p class="p-secondary">
+                    The Alumni Cell is proud to announce the Alumni Magazine IIT Indore 2019. Articles curated from our
+                    Alumni and students around different topics and categories. Enjoy reading the magazine and do let us
+                    know your feedback and views.
+                </p>
+                <div class="updates_bottom">
+                    <span class="p-secondary">
+                        <img src="img/update_icon-2.png" class="icon" alt="views">1411
+                    </span>
+                    <a href="#" class="p-primary">READ MORE <img src="img/update_icon-3.png" class="icon" alt="->"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="events">
+        <div class="flex_column fit center">
+            <h1 class="h-primary color">UPCOMING EVENT - REUNION- CLASS OF 2013</h1>
+            <p class="p-primary color">
+                It is with great pleasure we announce the Reunion of our Premier Graduating Batch for B.Tech of IIT
+                Indore! Do come to the reunion to reminisce and cherish the fond memories!
+            </p>
+            <div class="flex_wrap">
+                <div class="event_item">
+                    <a class="logo">
+                        <img src="img/event_logo-1.png" alt="Alumni_Cell_IITI" class="logo_img">
+                    </a>
+                    <h2 class="h-secondary">REGISTER NOW!</h2>
+                    <p class="p-primary">
+                        Register for Alumni Reunion & get all the updates about the meet
+                    </p>
+                </div>
+                <div class="event_item">
+                    <a class="logo">
+                        <img src="img/event_logo-2.png" alt="Alumni_Cell_IITI" class="logo_img">
+                    </a>
+                    <h2 class="h-secondary">VOLUNTEER</h2>
+                    <p class="p-primary">
+                        Volunteer for Alumni Reunion & contribute towards making it a huge success
+                    </p>
+                </div>
+                <div class="event_item">
+                    <a class="logo">
+                        <img src="img/event_logo-3.png" alt="Alumni_Cell_IITI" class="logo_img">
+                    </a>
+                    <h2 class="h-secondary">INVITE</h2>
+                    <p class="p-primary">
+                        Invite your friends to join the Alumni Portal & register for Alumni Meet
+                    </p>
+                </div>
+                <div class="event_item">
+                    <a class="logo">
+                        <img src="img/event_logo-4.png" alt="Alumni_Cell_IITI" class="logo_img">
+                    </a>
+                    <h2 class="h-secondary">GET IN TOUCH</h2>
+                    <p class="p-primary">
+                        Contact us for more details about the program
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="message" class="center">
+        <p class="h-primary fit">Message from Director</p>
+        <div class="flex_column center fit">
+            <img src="https://almashines.s3.dualstack.ap-southeast-1.amazonaws.com/assets/images/institutes/heads/current/170x170/183.jpg"
+                alt="Director_IITI" id="director_img">
+            <p class="h-primary">Suhas Joshi</p>
+            <div class="h-secondary">
+                <p>World over, the most acclaimed universities and institutions boast of having a strong and vibrant
+                    alumnus base.</p>
+                <p>The alumni network of IIT Indore forms a very important and significant element to propel the
+                    institute towards excellence in all spheres of science, technology, humanity and social sciences,
+                    and in producing leaders.</p>
+                <p>IIT Indore has been fortunate, right from its first graduating batch, to have a robust institute-
+                    alumni network, which we must all nurture and see its exponential growth in all dimensions.</p>
+                <p>With the very best wishes</p>
+            </div>
+        </div>
+    </section>
+    <section id="activities">
+        <h1 class="h-primary center fit">Initiatives & Activities</h1>
+        <div class="flex_wrap fit space-between">
+            <div class="flex">
+                <div class="logo">
+                    <img src="img/activities_logo-1.png" alt="Alumni_Cell_IITI" class="logo_img">
+                </div>
+                <div class="flex_column center">
+                    <h2 class="h-secondary">MAGNUM OPUS 2017</h2>
+                    <p class="p-primary">
+                        The Alumni Cell at IIT Indore organized the institute&rsquo;s first ever Alumni Meet &ndash;
+                        &lsquo;Magnum Opus&rsquo; on the 28th of December 2017 at the newly constructed campus at
+                        Simrol.
+                    </p>
+                    <a href="#" class="p-primary">View More</a>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="logo">
+                    <img src="img/activities_logo-2.png" alt="Alumni_Cell_IITI" class="logo_img">
+                </div>
+                <div class="flex_column center">
+                    <h2 class="h-secondary">FIRST ALUMNI MAGAZINE</h2>
+                    <p class="p-primary">
+                        This magazine was launched on the joyous occasion of &lsquo;Magnum Opus&rsquo;, the first alumni
+                        meet of IIT Indore, by Prof. Pradeep Mathur, Director, in the presence of alumni from first
+                        three graduating batches, faculty members and students at the institute&rsquo;s new-constructed
+                        campus at Simrol.
+                    </p>
+                    <a href="#" class="p-primary">View More</a>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="logo">
+                    <img src="img/activities_logo-3.png" alt="Alumni_Cell_IITI" class="logo_img">
+                </div>
+                <div class="flex_column center">
+                    <h2 class="h-secondary">ALUMNI STORIES
+                    </h2>
+                    <p class="p-primary">
+                        Compling Stories by alumni, generating statistics about their current locations, profiles and
+                        positions.
+                    </p>
+                    <a href="#" class="p-primary">View More</a>
+                </div>
+            </div>
+            <div class="flex">
+                <div class="logo">
+                    <img src="img/activities_logo-4.png" alt="Alumni_Cell_IITI" class="logo_img">
+                </div>
+                <div class="flex_column center">
+                    <h2 class="h-secondary">YEARBOOK
+                    </h2>
+                    <p class="p-primary">
+                        We are all set to launch our First Yearbook which will take you to back to those never-to-return
+                        memories
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div id="contact_heading">
+            <p class="h-primary fit color">Contact</p>
+        </div>
+        <div class="contact_grid fit">
+            <div class="flex_column">
+                <p class="h-secondary">Contact Info</p>
+                <div class="p-primary">
+                    <p>Alumni and Corporate Relations Office</p>
+                    <p>7th floor, Abhinandan Bhavan,</p>
+                    <p>Indian Institute of Technology Indore,
+                    </p>
+                    <p>Khandwa Road, Simrol,
+                    </p>
+                    <p>Indore-453552
+                    </p>
+                    <p>India</p>
+                </div>
+                <div class="p-secondary">
+                    <img src="img/contact_logo-1.png" alt="mob. " class="contact_logo">
+                    <a href="#">+91-731-6603122/+91-731-6603555</a>
+                </div>
+                <div class="p-secondary">
+                    <img src="img/mailunread_104463.png" alt="email. " class="contact_logo">
+                    <a href="#">alumnicell@iiti.ac.in</a>
+                    <a href="#">acroffice@iiti.ac.in</a>
+                </div>
+                <div class="contact_social">
+                    <a href="#"><img src="img/Facebook_Logo.png" alt="fb" class="social_logo"></a>
+                    <a href="#"><img src="img/linkedin-logo-png-1837.png" alt="in" class="social_logo"></a>
+                </div>
+            </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d62122687.27515495!2d127.86143761249998!3d18.13312001952979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1671102537248!5m2!1sen!2sin"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="contact_social fit center">
+            <a href="#"><img src="img/Facebook_Logo.png" alt="fb" class="social_logo"></a>
+            <a href="#"><img src="img/linkedin-logo-png-1837.png" alt="in" class="social_logo"></a>
+        </div>
+        <ul class="flex_wrap fit">
+            <li class="p-primary"><a href="#" class="color">HOME</a></li>
+            <li class="p-primary"><a href="#" class="color">ABOUT</a></li>
+            <li class="p-primary"><a href="#" class="color">CONTACT</a></li>
+            <li class="p-primary"><a href="#" class="color">SITEMAP</a></li>
+            <li class="p-primary"><a href="#" class="color">TERMS</a></li>
+            <li class="p-primary"><a href="#" class="color">PRIVACY</a></li>
+        </ul>
+
+    </footer>
+</body>
+
+</html>
+
+<!-- imp links -->
+
+
+
+<!-- https://almashines.s3.dualstack.ap-southeast-1.amazonaws.com/assets/images/institutes/heads/current/170x170/183.jpg -->
+<!--  -->
