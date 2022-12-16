@@ -81,7 +81,7 @@ a:hover{
 }
 /* HOME */
 #home{
-    background: url(../login_img-1.jpg) no-repeat center center/cover;
+    background: url(login_img-1.jpg) no-repeat center center/cover;
     padding: 0 !important;
     background-color: rgba(0,0,0,0.5);
     position: relative;
@@ -256,7 +256,7 @@ margin-top:-3500px;
 /* Alumni Platform */
 #alumni_platform::before{
     content:"";
-    background: url(../img/alumni_platform.jpg) no-repeat top center/cover;
+    background: url(alumni_platform.jpg) no-repeat top center/cover;
     height:100%;
     width:100%;
     position:absolute;
