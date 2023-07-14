@@ -7,6 +7,10 @@ function toggleHide(x) {
         list.style.display = "block";
     }
 }
+function bg(y){
+        let  sec = document.getElementById("home");
+        sec.style.backgroundImage=`url('login_img-${y}.jpg')`;
+}
     var counter = 1;
     setInterval(function () {
         let  sec = document.getElementById("home");
